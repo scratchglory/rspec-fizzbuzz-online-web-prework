@@ -9,7 +9,7 @@ def fizzbuzz(int)
   elsif ((int % 3) == 0 && (int % 5) == 0) # if the number int is divisible by 3 and 5
     "FizzBuzz" #Go fizzbuzz
   else  # if the number int is NOT divisible by 3 or 5
-    "nil" #Go nil 
+    nil #Go nil 
 end
 end
 
